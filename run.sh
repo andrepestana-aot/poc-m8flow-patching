@@ -5,8 +5,8 @@
 
 source .venv/bin/activate
 
-export PYTHONPATH=/mnt/c/dev/repos/poc-m8flow-patching-2/upstream/spiffworkflow-backend:$PYTHONPATH
-export PYTHONPATH=/mnt/c/dev/repos/poc-m8flow-patching-2/upstream/spiffworkflow-backend/src:$PYTHONPATH
+export PYTHONPATH=/mnt/c/dev/repos/poc-m8flow-patching/upstream/spiffworkflow-backend:$PYTHONPATH
+export PYTHONPATH=/mnt/c/dev/repos/poc-m8flow-patching/upstream/spiffworkflow-backend/src:$PYTHONPATH
 
 cd /mnt/c/dev/repos/poc-m8flow-patching/upstream/spiffworkflow-backend
 uv sync --all-groups --active
